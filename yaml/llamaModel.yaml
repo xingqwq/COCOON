@@ -1,0 +1,4 @@
+model: strategy
+
+generationConfig:
+  temperature: 0.7

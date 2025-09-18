@@ -1,0 +1,39 @@
+openai:
+  api_key: sk-##
+  base_url: ##
+
+listener:
+  api_key: EMPTY
+  base_url: http://gpu18:46691/v1
+
+LLaMA:
+  api_key: EMPTY
+  base_url: http://gpu07:46692/v1
+
+Planner:
+  api_key: EMPTY
+  base_url: http://gpu07:46691/v1
+
+Draft:
+  api_key: EMPTY
+  base_url: http://gpu18:46694/v1
+
+Qwen:
+  api_key: EMPTY
+  base_url: http://gpu07:46693/v1
+
+ESCoT:
+  api_key: EMPTY
+  base_url: http://gpu07:46695/v1
+
+SoulChat:
+  api_key: EMPTY
+  base_url: http://gpu20:46696/v1
+
+EmoLLM:
+  api_key: EMPTY
+  base_url: http://gpu21:46697/v1
+
+MeChat:
+  api_key: EMPTY
+  base_url: http://gpu21:46698/v1

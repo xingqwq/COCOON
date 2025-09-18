@@ -1,0 +1,4 @@
+model: gpt-4o
+
+generationConfig:
+  temperature: 0.0

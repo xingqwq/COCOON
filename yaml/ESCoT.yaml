@@ -1,0 +1,6 @@
+model: strategy
+
+generationConfig:
+  temperature: 0.5
+  top_p: 0.85
+  max_tokens: 500

@@ -1,0 +1,1 @@
+Generate the response using the pipeline of emotion, emotion stimulus, individual appraisal, strategy reason and response.
