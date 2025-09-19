@@ -73,7 +73,7 @@ def session(args):
     
     return {'lineId':id, 'dialog':line['dialog'], 'info':info, 'score':deepcopy(score)}
         
-with open(f"/home/xfu/ActiveListening/listen-{dataPath.split('/')[-1].split('.')[0].split('-')[0]}-score.json", "w") as file:
+with open(f"listen-{dataPath.split('/')[-1].split('.')[0].split('-')[0]}-score.json", "w") as file:
     tasks = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
         for id, line in enumerate(data):
